@@ -3,8 +3,9 @@
 A boilerplate to get you started with a Vue 3 project fast.
 
 - ViteJS
-- Composition API
 - TailwindCSS
+- Page Transitions
+- Composition API
 - TailwindUI
 - VueX
 - HeadlessUI
