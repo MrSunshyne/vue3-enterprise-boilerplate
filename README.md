@@ -1,6 +1,6 @@
 # Vue 3 Enterprise Boilerplate
 
-A boilerplate to get started with a Vue 3 project fast
+A boilerplate to get you started with a Vue 3 project fast.
 
 - ViteJS
 - Composition API
