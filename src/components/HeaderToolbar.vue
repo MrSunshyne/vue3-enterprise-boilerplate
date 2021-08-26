@@ -15,13 +15,10 @@
           </div>
         </div>
         <div class="ml-10 space-x-4">
-          <a
-            href="https://github.com/MrSunshyne/vue3-enterprise-boilerplate"
-            class="flex items-center space-x-2 bg-green-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
-          >
+          <SimpleButton href="https://github.com/MrSunshyne/vue3-enterprise-boilerplate">
             <span>Star on Github</span>
             <StarIcon class="inline-block w-6 h-6" />
-          </a>
+          </SimpleButton>
         </div>
       </div>
       <div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
@@ -33,24 +30,16 @@
   </header>
 </template>
 
-<script>
+
+
+<script setup>
+import { StarIcon } from "@heroicons/vue/outline";
+import { CodeIcon } from "@heroicons/vue/solid";
+import SimpleButton from "@/components/common/SimpleButton.vue";
+
 const navigation = [
   { name: "Home", to: { name: "home" } },
   { name: "About", to: { name: "about" } },
 ];
-
-import { StarIcon } from "@heroicons/vue/outline";
-import { CodeIcon } from "@heroicons/vue/solid";
-
-export default {
-  components: {
-    StarIcon,
-    CodeIcon,
-  },
-  setup() {
-    return {
-      navigation,
-    };
-  },
-};
 </script>
+ 

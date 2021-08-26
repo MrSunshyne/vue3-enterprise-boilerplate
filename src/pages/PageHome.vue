@@ -1,5 +1,6 @@
 <script setup>
 import SimpleButton from "@/components/common/SimpleButton.vue";
+import ScriptSetup from "@/components/examples/ScriptSetup.vue";
 </script>
 
 <template>
@@ -39,5 +40,6 @@ import SimpleButton from "@/components/common/SimpleButton.vue";
         <SimpleButton />
       </div>
     </div>
+    <ScriptSetup />
   </div>
 </template>
