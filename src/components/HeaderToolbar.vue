@@ -40,6 +40,7 @@ import SimpleButton from "@/components/common/SimpleButton.vue";
 const navigation = [
   { name: "Home", to: { name: "home" } },
   { name: "About", to: { name: "about" } },
+  { name: "Calculator", to: { name: "calculator" } },
 ];
 </script>
  
