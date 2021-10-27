@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "vue": "^3.2.6",
-    "vue-router": "^4.0.11",
+    "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.4.0",
-    "@heroicons/vue": "^1.0.4",
+    "@heroicons/vue": "^1.0.5",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/line-clamp": "^0.2.1",
